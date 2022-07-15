@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ovelichko\\OneDrive - Paylocity Corporation\\Desktop\\c#\\GradeBook\\GradeBook.csproj",
+      "projectUniqueName": "C:\\Users\\ovelichko\\OneDrive - Paylocity Corporation\\Documents\\OlgaVelichko\\C#\\GradeBook\\src\\GradeBook.csproj",
       "projectName": "GradeBook",
-      "projectPath": "C:\\Users\\ovelichko\\OneDrive - Paylocity Corporation\\Desktop\\c#\\GradeBook\\GradeBook.csproj",
+      "projectPath": "C:\\Users\\ovelichko\\OneDrive - Paylocity Corporation\\Documents\\OlgaVelichko\\C#\\GradeBook\\src\\GradeBook.csproj",
       "packagesPath": "C:\\Users\\ovelichko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ovelichko\\OneDrive - Paylocity Corporation\\Desktop\\c#\\GradeBook\\obj\\",
+      "outputPath": "C:\\Users\\ovelichko\\OneDrive - Paylocity Corporation\\Documents\\OlgaVelichko\\C#\\GradeBook\\src\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ovelichko\\AppData\\Roaming\\NuGet\\NuGet.Config",

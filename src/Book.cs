@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using GRADERBOOK.Statistic;
 //is folder name
 namespace GradeBook{
 
@@ -7,7 +8,7 @@ namespace GradeBook{
     string name;
     decimal year;
     List<double> grades = new List<double>();
-       public Book(string name,decimal year){
+       public Book(string name){
         this.name = name;
         this.year = year;
 
@@ -28,6 +29,22 @@ namespace GradeBook{
             result+=number;
         }
         return result;
+       }
+
+       public Statistics GetStatistics(){
+
+        var statistic_value = new Statistic();
+        statistic_value.Average = 0.0;
+        statistic_value.Low = grades[0];
+        statistic_value.High= grades[0];
+
+        foreach(double grade in grades){
+            statistic_value.Average+=grade;
+            statistic_value.Low = Math.Min(statistic_value.Low,grade);
+            statistic_value.High = Math.Max(statistic_value.High,grade);
+        }
+        statistic_value.Average=statistic_value.Average/grades.Count;
+        return statistic_value;
        }
     }
 
