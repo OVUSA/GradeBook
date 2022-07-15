@@ -885,16 +885,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
-      },
-      "GradeBook/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/GradeBook.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GradeBook.dll": {}
-        }
       }
     }
   },
@@ -3847,16 +3837,10 @@
         "system.xml.xdocument.4.0.11.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
-    },
-    "GradeBook/1.0.0": {
-      "type": "project",
-      "path": "../../src/GradeBook.csproj",
-      "msbuildProject": "../../src/GradeBook.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "GradeBook >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.1.0",
       "NUnit >= 3.13.3",
       "NUnit.Analyzers >= 3.3.0",
@@ -3870,11 +3854,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ovelichko\\OneDrive - Paylocity Corporation\\Documents\\OlgaVelichko\\C#\\GradeBook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\ovelichko\\OneDrive - Paylocity Corporation\\Documents\\OlgaVelichko\\C#\\GradeBook\\test\\GradeBook.Tests.csproj",
       "projectName": "GradeBook.Tests",
-      "projectPath": "C:\\Users\\ovelichko\\OneDrive - Paylocity Corporation\\Documents\\OlgaVelichko\\C#\\GradeBook\\test\\GradeBook.Tests\\GradeBook.Tests.csproj",
+      "projectPath": "C:\\Users\\ovelichko\\OneDrive - Paylocity Corporation\\Documents\\OlgaVelichko\\C#\\GradeBook\\test\\GradeBook.Tests.csproj",
       "packagesPath": "C:\\Users\\ovelichko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ovelichko\\OneDrive - Paylocity Corporation\\Documents\\OlgaVelichko\\C#\\GradeBook\\test\\GradeBook.Tests\\obj\\",
+      "outputPath": "C:\\Users\\ovelichko\\OneDrive - Paylocity Corporation\\Documents\\OlgaVelichko\\C#\\GradeBook\\test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ovelichko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3891,11 +3875,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\ovelichko\\OneDrive - Paylocity Corporation\\Documents\\OlgaVelichko\\C#\\GradeBook\\src\\GradeBook.csproj": {
-              "projectPath": "C:\\Users\\ovelichko\\OneDrive - Paylocity Corporation\\Documents\\OlgaVelichko\\C#\\GradeBook\\src\\GradeBook.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

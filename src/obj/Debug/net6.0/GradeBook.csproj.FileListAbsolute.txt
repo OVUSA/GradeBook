@@ -29,3 +29,10 @@ C:\Users\ovelichko\OneDrive - Paylocity Corporation\Documents\OlgaVelichko\C#\Gr
 C:\Users\ovelichko\OneDrive - Paylocity Corporation\Documents\OlgaVelichko\C#\GradeBook\src\obj\Debug\net6.0\GradeBook.dll
 C:\Users\ovelichko\OneDrive - Paylocity Corporation\Documents\OlgaVelichko\C#\GradeBook\src\obj\Debug\net6.0\refint\GradeBook.dll
 C:\Users\ovelichko\OneDrive - Paylocity Corporation\Documents\OlgaVelichko\C#\GradeBook\src\obj\Debug\net6.0\GradeBook.pdb
+C:\Users\ovelichko\OneDrive - Paylocity Corporation\Documents\OlgaVelichko\C#\GradeBook\src\bin\Debug\net6.0\GradeBook.exe
+C:\Users\ovelichko\OneDrive - Paylocity Corporation\Documents\OlgaVelichko\C#\GradeBook\src\bin\Debug\net6.0\GradeBook.deps.json
+C:\Users\ovelichko\OneDrive - Paylocity Corporation\Documents\OlgaVelichko\C#\GradeBook\src\bin\Debug\net6.0\GradeBook.runtimeconfig.json
+C:\Users\ovelichko\OneDrive - Paylocity Corporation\Documents\OlgaVelichko\C#\GradeBook\src\bin\Debug\net6.0\GradeBook.dll
+C:\Users\ovelichko\OneDrive - Paylocity Corporation\Documents\OlgaVelichko\C#\GradeBook\src\bin\Debug\net6.0\GradeBook.pdb
+C:\Users\ovelichko\OneDrive - Paylocity Corporation\Documents\OlgaVelichko\C#\GradeBook\src\obj\Debug\net6.0\GradeBook.genruntimeconfig.cache
+C:\Users\ovelichko\OneDrive - Paylocity Corporation\Documents\OlgaVelichko\C#\GradeBook\src\obj\Debug\net6.0\ref\GradeBook.dll

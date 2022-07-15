@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
-using GRADERBOOK.Statistic;
+
+
 //is folder name
 namespace GradeBook{
 
@@ -22,18 +23,9 @@ namespace GradeBook{
         return grades;
        }
 
-       public double calculateAverage(){
-        var result = 0.0;
-
-        foreach(var number in grades){
-            result+=number;
-        }
-        return result;
-       }
-
        public Statistics GetStatistics(){
 
-        var statistic_value = new Statistic();
+        var statistic_value = new Statistics();
         statistic_value.Average = 0.0;
         statistic_value.Low = grades[0];
         statistic_value.High= grades[0];
@@ -43,7 +35,8 @@ namespace GradeBook{
             statistic_value.Low = Math.Min(statistic_value.Low,grade);
             statistic_value.High = Math.Max(statistic_value.High,grade);
         }
-        statistic_value.Average=statistic_value.Average/grades.Count;
+        statistic_value.Average/=grades.Count;
+
         return statistic_value;
        }
     }

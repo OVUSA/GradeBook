@@ -9,7 +9,7 @@ namespace GradeBook{
             book.addGrade(60.6);
             book.addGrade(90.0);
             book.addGrade(75.2);
-            Console.Write($"Average grade is: {book.calculateAverage()}");
+    
 
             Console.WriteLine($"The lowest value is : {book.GetStatistics().Low}");
             Console.WriteLine($"The highest value is : {book.GetStatistics().High}");

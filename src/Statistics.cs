@@ -1,9 +1,9 @@
-using System;
+
 namespace GradeBook{
-    public class Statistic{
-        public double Average =0.0 ;
-        public double High = 0.0;
-        public double Low = 0.0;
+    public class Statistics{
+        public double Average ;
+        public double High ;
+        public double Low ;
 
     }
 }
